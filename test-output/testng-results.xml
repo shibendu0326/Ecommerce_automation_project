@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="3" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-02T20:40:01 IST" name="Suite" finished-at="2025-05-02T20:40:05 IST" duration-ms="3464">
+    <groups>
+      <group name="Errorhandling">
+        <method signature="Errorvalidationtest.testnegativelogin()[pri:0, instance:ecommerce.tests.Errorvalidationtest@6f4a47c7]" name="testnegativelogin" class="ecommerce.tests.Errorvalidationtest"/>
+      </group> <!-- Errorhandling -->
+    </groups>
+    <test started-at="2025-05-02T20:40:01 IST" name="Error validation test" finished-at="2025-05-02T20:40:05 IST" duration-ms="3464">
+      <class name="ecommerce.tests.Errorvalidationtest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:ecommerce.tests.Errorvalidationtest@6f4a47c7]" started-at="2025-05-02T20:40:01 IST" name="launchapplication" finished-at="2025-05-02T20:40:04 IST" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method retried="true" signature="testnegativelogin()[pri:0, instance:ecommerce.tests.Errorvalidationtest@6f4a47c7]" started-at="2025-05-02T20:40:04 IST" name="testnegativelogin" finished-at="2025-05-02T20:40:04 IST" duration-ms="5" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "ecommerce.pageobjects.Landingpage.LoginApplication(String, String)" because "this.landingpage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "ecommerce.pageobjects.Landingpage.LoginApplication(String, String)" because "this.landingpage" is null
+at ecommerce.tests.Errorvalidationtest.testnegativelogin(Errorvalidationtest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testnegativelogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ecommerce.tests.Errorvalidationtest@6f4a47c7]" started-at="2025-05-02T20:40:04 IST" name="teardown" finished-at="2025-05-02T20:40:04 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:ecommerce.tests.Errorvalidationtest@6f4a47c7]" started-at="2025-05-02T20:40:04 IST" name="launchapplication" finished-at="2025-05-02T20:40:05 IST" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="testnegativelogin()[pri:0, instance:ecommerce.tests.Errorvalidationtest@6f4a47c7]" started-at="2025-05-02T20:40:05 IST" name="testnegativelogin" finished-at="2025-05-02T20:40:05 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "ecommerce.pageobjects.Landingpage.LoginApplication(String, String)" because "this.landingpage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "ecommerce.pageobjects.Landingpage.LoginApplication(String, String)" because "this.landingpage" is null
+at ecommerce.tests.Errorvalidationtest.testnegativelogin(Errorvalidationtest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testnegativelogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ecommerce.tests.Errorvalidationtest@6f4a47c7]" started-at="2025-05-02T20:40:05 IST" name="teardown" finished-at="2025-05-02T20:40:05 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ecommerce.tests.Errorvalidationtest -->
+    </test> <!-- Error validation test -->
+  </suite> <!-- Suite -->
+</testng-results>

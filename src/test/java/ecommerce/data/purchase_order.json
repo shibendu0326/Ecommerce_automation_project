@@ -1,0 +1,13 @@
+[
+	{
+		"username" : "secret_sauce",
+		"password" : "secret_sauce",
+		"productname" : "Sauce Labs Bolt T-Shirt"
+	},
+	
+	{
+		"username" : "visual_user",
+		"password" : "secret_sauce",
+		"productname" : "Sauce Labs Backpack"
+	}
+]
